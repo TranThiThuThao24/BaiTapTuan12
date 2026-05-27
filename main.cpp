@@ -37,7 +37,7 @@ void HeapSort(int a[], int n){
 	Mang(a, n);
 	cout<<"\nCac buoc sap xep\n";
 	for(int i = n; i >= 2; i--){
-		int temp = a[i];
+		int temp = a[1];
 		a[1] = a[i];
 		a[i] = temp;
 		cout<<"\nDoi voi phan tu cuoi:\n";
