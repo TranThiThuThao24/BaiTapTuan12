@@ -16,7 +16,7 @@ void VunDong(int a[], int n, int i){
 	if(phai <= n && a[phai]> a[max]){
 		max = phai;
 	}
-	if(max != 1){
+	if(max != i){
 		int temp = a[i];
 		a[i] = a[max];
 		a[max] = temp;
@@ -68,27 +68,3 @@ int main(){
 	Mang(b, n2);
 	return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
